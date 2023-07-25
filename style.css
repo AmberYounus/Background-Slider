@@ -8,8 +8,9 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-position: center;
+    background-position: center center;
     margin: 0;
+    overflow: hidden;
     background-size: cover;
     transition: 0.4s;
 }
@@ -52,37 +53,16 @@ body::before{
     color: #fff;
     padding: 20px;
     font-size: 30px;
-    border: 2px solid orange;
+    border: 2px solid #666561;
     top: 50%;
     transform: translateY(-50%);
 }
-.arrow:focus{
-    outline: 0;
-}
-.left-arrow{
-    left: calc(15vw-65px);
+
+.left-arrow
+{
+    left: calc(15vw - 65px);
 }
 .right-arrow{
-    right: calc(15vw-65px);
+    right: calc(15vw - 65px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
